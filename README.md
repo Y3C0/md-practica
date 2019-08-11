@@ -164,4 +164,5 @@ Podemos definir que un texto esté en negrita, cursiva o tachado. Para ello tend
 | Negrita | ```**Negrita**``` | **Negrita** |
 | Cursiva | ```*Cursiva*``` | *Cursiva* |
 | Tachado | ```~~Tachado~~``` | ~~Tachado~~ |
-| Negrita + Cursiva | ```***Negrita + Cursiva***``` | ***Negrita +  Cursiva*** |
+| Negrita + Cursiva | ```***Palabra``` | ***Palabra*** |
+| Tachado + Negrita + Cursiva | ```~~**palabra**~~``` | ~~**Palabra**~~ |
