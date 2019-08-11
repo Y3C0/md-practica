@@ -341,3 +341,53 @@ reemplazar el espacio por una X del siguiente modo:
 - [X] 2 kg Tortillas
 - [X] 3 kg Naranja
 - [ ] 1 Lechuga
+
+---
+
+## Tablas
+
+Para generar tablas en Markdown usaremos los siguientes símbolos:
+
+1. |
+2. :
+3. -
+
+El primer paso para crear una tabla consiste en definir los títulos de las
+columnas. Para ello escribiremos los títulos de las Política columnas
+separados por tuberías | tal y como se muestra en el siguiente ejemplo:
+
+> | Dia | Mes | Ano |
+
+Acto seguido repetiremos la línea que acabamos de escribir sustituyendo los
+títulos de las columnas por —
+
+> | --- | --- | --- |
+
+En estos momentos hemos generado una tabla que tiene 3 columnas y una fila
+que con los títulos de las columnas. Finalmente añadiremos el resto de filas de la
+misma forma que añadimos las columnas:
+
+> | 15 | Abril | 1990 |
+>
+> | 20 | Mayo | 2018 |
+>
+> | 31 | Diciembre | 1980 |
+
+###### *Resultado:*
+
+| Día | Mes | Ano |
+| --- | --- | --- |
+| 15 | Abril | 1990 |
+| 20 | Mayo | 2018 |
+| 31 | Diciembre | 1980 |
+
+Con este simple código habremos generado una tabla. Si además queremos
+justificar a la derecha el contenido de la columna 2 y centrar todo el texto de la columna 3, lo haremos usando el símbolo : en la segunda fila del código Markdown:
+
+| Día | Mes | Ano |
+| --- | ---: | :---: |
+| 15 | Abril | 1990 |
+| 20 | Mayo | 2018 |
+| 31 | Diciembre | 1980 |
+
+---
