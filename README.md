@@ -36,16 +36,20 @@ Mediante el símbolo * o – podemos crear listas.
 
 ##### Ejemplo:
 
-> * Lunes
-> - Martes
-> * Miércoles
-> - Jueves
-> * Viernes
-
-##### Resultado:
-
 * Lunes
 - Martes
 * Miércoles
 - Jueves
 * Viernes
+
+### Listas desordenadas
+
+Para obtener listados ordenados numéricamente tenemos que escribir un
+número seguido de un punto y un espacio antes de comenzar a escribir
+
+
+##### Ejemplo:
+
+1. Positivo
+2. Negativo
+3. Neutro
