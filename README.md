@@ -11,7 +11,7 @@ cinco y seis de forma extremadamente sencilla.
 Para crear un encabezado de nivel 1 escribimos una almohadilla # seguido de un
 espacio y el nombre que queremos para el encabezado:
 
-##### Ejemplo:
+###### *Ejemplo:*
 
 ```MarkDown
 # Titulo 1
@@ -21,7 +21,7 @@ espacio y el nombre que queremos para el encabezado:
 ##### Titulo 5
 ###### Titulo 6
 ```
-##### Resultado:
+###### *Resultado:*
 
 # Titulo 1
 ## Titulo 2
@@ -38,7 +38,7 @@ Para incluir una cita tenemos que usar el símbolo > seguido de un espacio antes
 del texto que queremos citar. Por lo tanto, si quiero citar
 un comentario y replicarlo deberíamos usar el siguiente código:
 
-##### Ejemplo:
+###### *Ejemplo:*
 
 ```MarkDown
 > Linux es el sistema operativo mas chingon!!
@@ -46,7 +46,7 @@ un comentario y replicarlo deberíamos usar el siguiente código:
 Total mente de acuerdo!!
 ```
 
-##### Resultado:
+###### *Resultado:*
 
 > Linux es el sistema operativo mas chingon!!
 
@@ -60,7 +60,7 @@ Total mente de acuerdo!!
 
 Mediante el símbolo * o – podemos crear listas.
 
-##### Ejemplo:
+###### *Ejemplo:*
 
 ```MarkDown
 * Lunes
@@ -69,7 +69,7 @@ Mediante el símbolo * o – podemos crear listas.
 - Jueves
 * Viernes
 ```
-##### Resultado:
+###### *Resultado:*
 
 * Lunes
 - Martes
@@ -85,7 +85,7 @@ Para obtener listados ordenados numéricamente tenemos que escribir un
 número seguido de un punto y un espacio antes de comenzar a escribir
 
 
-##### Ejemplo:
+###### *Ejemplo:*
 
 ```MarkDown
 1. Positivo
@@ -93,7 +93,7 @@ número seguido de un punto y un espacio antes de comenzar a escribir
 3. Neutro
 ```
 
-##### Resultado:
+###### *Resultado:*
 
 1. Positivo
 2. Negativo
@@ -106,7 +106,7 @@ número seguido de un punto y un espacio antes de comenzar a escribir
 Para anidar una lista tan solo tenemos que incluir un espacio presionando la
 tecla Tab (Tabulador).
 
-##### Ejemplo:
+###### *Ejemplo:*
 
 ```MarkDown
 - Lunes
@@ -119,7 +119,7 @@ tecla Tab (Tabulador).
   2. Tarde
   3. Noche
 ```
-##### Resultado
+###### *Resultado:*
 
 - lunes
    1. Mañana
@@ -132,12 +132,12 @@ tecla Tab (Tabulador).
 
 ---
 
-### Separaciones Físicas entre secciones de texto
+## Separaciones Físicas entre secciones de texto
 
 Entre dos secciones de texto podemos incluir una separación física. Para ello
 tenemos que escribir 3 guiones bajos seguidos ___
 
-##### Ejemplo:
+###### *Ejemplo:*
 
 ```MarkDown
 Este parrafo es de prueba para mostrar la separación de texto por medio de ___ tres guiones
@@ -145,7 +145,7 @@ Este parrafo es de prueba para mostrar la separación de texto por medio de ___ 
 Este es otro párrafo agregado para el ejemplo de Separaciones físicas entre secciones de texto
 ```
 
-##### Resultado:
+###### *Resultado:*
 
 >Este parrafo es de prueba para mostrar la separación de texto por medio de ___ tres guiones
 >
@@ -155,7 +155,7 @@ Este es otro párrafo agregado para el ejemplo de Separaciones físicas entre se
 
 ---
 
-### Estilo al texto
+## Estilos al texto
 
 Podemos definir que un texto esté en negrita, cursiva o tachado. Para ello tendremos que utilizar el siguiente código:
 
@@ -169,19 +169,19 @@ Podemos definir que un texto esté en negrita, cursiva o tachado. Para ello tend
 
 ---
 
-### Insertar enlaces de texto o descarga
+## Insertar enlaces de texto o descarga
 
 Para incluir enlaces en un texto tenemos que utilizar el siguiente tipo de sintaxis:
 
 ```MarkDown
 [texto_de_ancla](URL_que_queremos_enlazar_o_enlace_de_descarga)
 ```
-###### Ejemplo:
+###### *Ejemplo:*
 
 ```MarkDown
 [Sigueme!!](https://www.facebook.com/yeco13)
 ```
-###### Resultado:
+###### *Resultado:*
 
 [Sigueme!!](https://www.facebook.com/yeco13)
 
@@ -192,7 +192,7 @@ siguiente sintaxis:
 [texto_de_ancla](URL_que_queremos_enlazar) titulo_del_enlace
 ```
 
-###### Resultado:
+###### *Resultado:*
 
 [Sigueme!!](https://www.facebook.com/yeco13) Sergio
 
@@ -202,26 +202,26 @@ Ademas puedes agregan tooltype
 [texto_de_ancla](URL_que_queremos_enlazar ”Contenido tooltype”) titulo_del_enlace
 ```
 
-###### Resultado:
+###### *Resultado:*
 
 [Sigueme!!](https://www.facebook.com/yeco13/”Y3C0”) Sergio Diaz
 
 ---
 
-### Insertar Imágenes
+## Insertar Imágenes
 
 El método para insertar imágenes es similar al método para insertar enlaces. La sintaxis es la misma y lo único que tenemos que modificar es:
 
 1. Reemplazar el texto de ancla por el texto alternativo de la imagen.
 2. Añadir el símbolo ! al principio de la sintaxis.
 
-###### Ejemplo:
+###### *Ejemplo:*
 
 ```MarkDown
 ![texto_alternativo_imagen](URL_imagen)
 ```
 
-###### Resultado:
+###### *Resultado:*
 
 ![Yo amo MarkDown](http://mikemclin.net/mmwp/wp-content/uploads/2013/03/markdown-syntax-language.png)
 
@@ -233,7 +233,7 @@ El método para insertar imágenes es similar al método para insertar enlaces. 
 ![texto_alternativo_imagen](URL_imagen "Texto tooltype")
 ```
 
-###### Resultado:
+###### *Resultado:*
 
 ![Yo amo MarkDown](http://mikemclin.net/mmwp/wp-content/uploads/2013/03/markdown-syntax-language.png "MarkDown es lo mejor!!")
 
@@ -253,7 +253,7 @@ Una vez finalizado el texto, al final del documento definiremos los enlaces del 
 [Enlace]: http://www.my-enlace.com
 ```
 
-###### Ejemplo:
+###### *Ejemplo:*
 
 [Zaid Oigres] Pagina Personal de Sergio Diaz
 
@@ -266,7 +266,7 @@ Si tenemos que insertar una imagen en varias partes del documento podemos escrib
 ```MarkDown
 ![insertando imágenes]
 ```
-###### Resultado:
+###### *Resultado:*
 
 ![insertando imágenes]
 
@@ -280,7 +280,7 @@ Al final del documento definiremos la URL de la imagen del siguiente modo:
 
 ---
 
-### Insertar cajas de código
+## Insertar cajas de código
 
 Markdown permite incluir cajetines de código en cualquier lenguaje de programación. Para ello tan solo tenemos que seguir el siguiente procedimiento:
 
@@ -290,7 +290,7 @@ Markdown permite incluir cajetines de código en cualquier lenguaje de programac
 
 3. Para cerrar el cajetín volveremos a escribir tres acentos abiertos ``` ` ` ` ``` .
 
-###### Ejemplo:
+###### *Ejemplo:*
 
 ```html
 <!DOCTYPE html>
@@ -309,9 +309,13 @@ Markdown permite incluir cajetines de código en cualquier lenguaje de programac
 
 Para resaltar código dentro de una frase tenemos que usar el símbolo de acento grave o abierto `. Por lo tanto, para resaltar código tan solo tengo que poner entre acentos graves
 
-###### Ejemplo:
+###### *Ejemplo:*
 
-El comando para buscar actualizaciones para distribuciones basadas en debian es `apt update`
+El comando para buscar actualizaciones para distribuciones basadas en debian es: `apt update`,
+
+Comando para listar las actualizaciones disponibles: `apt list --upgradable`
+
+Comando para actualizar las aplicaciones: `apt upgrade`
 
  ---
  
