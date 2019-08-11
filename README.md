@@ -13,7 +13,7 @@ espacio y el nombre que queremos para el encabezado:
 
 ##### Ejemplo:
 
-```
+```MarkDown
 # Titulo 1
 ## Titulo 2
 ### Titulo 3
@@ -29,6 +29,7 @@ espacio y el nombre que queremos para el encabezado:
 #### Titulo 4
 ##### Titulo 5
 ###### Titulo 6
+
 ---
 
 ## Citar
@@ -39,7 +40,7 @@ un comentario y replicarlo deberíamos usar el siguiente código:
 
 ##### Ejemplo:
 
-```
+```MarkDown
 > Linux es el sistema operativo mas chingon!!
 
 Total mente de acuerdo!!
@@ -61,7 +62,7 @@ Mediante el símbolo * o – podemos crear listas.
 
 ##### Ejemplo:
 
-```
+```MarkDown
 * Lunes
 - Martes
 * Miércoles
@@ -86,7 +87,7 @@ número seguido de un punto y un espacio antes de comenzar a escribir
 
 ##### Ejemplo:
 
-```
+```MarkDown
 1. Positivo
 2. Negativo
 3. Neutro
@@ -107,7 +108,7 @@ tecla Tab (Tabulador).
 
 ##### Ejemplo:
 
-```
+```MarkDown
 - Lunes
   1. Mañana
   2. Tarde
@@ -138,7 +139,7 @@ tenemos que escribir 3 guiones bajos seguidos ___
 
 ##### Ejemplo:
 
-```
+```MarkDown
 Este parrafo es de prueba para mostrar la separación de texto por medio de ___ tres guiones
 ---
 Este es otro párrafo agregado para el ejemplo de Separaciones físicas entre secciones de texto
@@ -153,3 +154,7 @@ Este es otro párrafo agregado para el ejemplo de Separaciones físicas entre se
 > Este es otro párrafo agregado para el ejemplo de Separaciones físicas entre secciones de texto
 
 ---
+
+### Estilo al texto
+
+Podemos definir que un texto esté en negrita, cursiva o tachado. Para ello tendremos que utilizar el siguiente código:
