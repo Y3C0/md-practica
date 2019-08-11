@@ -13,12 +13,23 @@ espacio y el nombre que queremos para el encabezado:
 
 ##### Ejemplo:
 
+```
 # Titulo 1
 ## Titulo 2
 ### Titulo 3
 #### Titulo 4
 ##### Titulo 5
 ###### Titulo 6
+```
+##### Resultado:
+
+# Titulo 1
+## Titulo 2
+### Titulo 3
+#### Titulo 4
+##### Titulo 5
+###### Titulo 6
+---
 
 ## Citar
 
@@ -28,9 +39,19 @@ un comentario y replicarlo deberíamos usar el siguiente código:
 
 ##### Ejemplo:
 
+```
 > Linux es el sistema operativo mas chingon!!
 
 Total mente de acuerdo!!
+```
+
+##### Resultado:
+
+> Linux es el sistema operativo mas chingon!!
+
+Total mente de acuerdo!!
+
+---
 
 ## Listas
 
@@ -40,11 +61,22 @@ Mediante el símbolo * o – podemos crear listas.
 
 ##### Ejemplo:
 
+```
 * Lunes
 - Martes
 * Miércoles
 - Jueves
 * Viernes
+```
+##### Resultado:
+
+* Lunes
+- Martes
+* Miércoles
+- Jueves
+* Viernes
+
+---
 
 ### Listas Ordenadas
 
@@ -54,9 +86,19 @@ número seguido de un punto y un espacio antes de comenzar a escribir
 
 ##### Ejemplo:
 
+```
 1. Positivo
 2. Negativo
 3. Neutro
+```
+
+##### Resultado:
+
+1. Positivo
+2. Negativo
+3. Neutro
+
+---
 
 ## Anidar Listas
 
@@ -65,6 +107,7 @@ tecla Tab (Tabulador).
 
 ##### Ejemplo:
 
+```
 - Lunes
   1. Mañana
   2. Tarde
@@ -74,6 +117,19 @@ tecla Tab (Tabulador).
   1. Mañana
   2. Tarde
   3. Noche
+```
+##### Resultado
+
+- lunes
+   1. Mañana
+   2. Tarde
+   3. Noche
+- Martes
+   1. Mañana
+   2. Tarde
+   3. Noche
+
+---
 
 ### Separaciones Físicas entre secciones de texto
 
@@ -82,8 +138,18 @@ tenemos que escribir 3 guiones bajos seguidos ___
 
 ##### Ejemplo:
 
+```
 Este parrafo es de prueba para mostrar la separación de texto por medio de ___ tres guiones
+---
+Este es otro párrafo agregado para el ejemplo de Separaciones físicas entre secciones de texto
+```
+
+##### Resultado:
+
+>Este parrafo es de prueba para mostrar la separación de texto por medio de ___ tres guiones
+>
+>---
+>
+> Este es otro párrafo agregado para el ejemplo de Separaciones físicas entre secciones de texto
 
 ---
-
-Este es otro párrafo agregado para el ejemplo de "Separaciones físicas entre secciones de texto"
