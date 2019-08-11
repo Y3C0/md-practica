@@ -1,5 +1,5 @@
-# md-practica
-Proyecto para carga de practicas MarkDown
+# MarkDown
+
 ## Encabezados o Titulos
 
 Mediante el carácter almohadilla # podemos crear encabezados
@@ -16,4 +16,4 @@ espacio y el nombre que queremos para el encabezado:
 ### Titulo 3
 #### Titulo 4
 ##### Titulo 5
-###### Titulo 6 
+###### Titulo 6
