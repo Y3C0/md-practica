@@ -279,3 +279,39 @@ Al final del documento definiremos la URL de la imagen del siguiente modo:
 [insertando imágenes]: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Octicons-markdown.svg/1024px-Octicons-markdown.svg.png
 
 ---
+
+### Insertar cajas de código
+
+Markdown permite incluir cajetines de código en cualquier lenguaje de programación. Para ello tan solo tenemos que seguir el siguiente procedimiento:
+
+1. Antes de iniciar el código escribimos tres acentos abiertos  ``` ` ` ` ``` seguido del nombre del lenguaje que queremos insertar en el cajetín.
+
+2. Presionamos enter y escribimos el código.
+
+3. Para cerrar el cajetín volveremos a escribir tres acentos abiertos ``` ` ` ` ``` .
+
+###### Ejemplo:
+
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hola Mundo</title>
+  </head>
+  <body>
+    <h1>Hola Mundo!!</h1>
+  </body>
+</html>
+```
+
+### Resaltar código dentro de un texto párrafo
+
+Para resaltar código dentro de una frase tenemos que usar el símbolo de acento grave o abierto `. Por lo tanto, para resaltar código tan solo tengo que poner entre acentos graves
+
+###### Ejemplo:
+
+El comando para buscar actualizaciones para distribuciones basadas en debian es `apt update`
+
+ ---
+ 
