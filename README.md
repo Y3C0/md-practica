@@ -42,7 +42,7 @@ Mediante el símbolo * o – podemos crear listas.
 - Jueves
 * Viernes
 
-### Listas desordenadas
+### Listas Ordenadas
 
 Para obtener listados ordenados numéricamente tenemos que escribir un
 número seguido de un punto y un espacio antes de comenzar a escribir
@@ -53,3 +53,20 @@ número seguido de un punto y un espacio antes de comenzar a escribir
 1. Positivo
 2. Negativo
 3. Neutro
+
+## Anidar Listas
+
+Para anidar una lista tan solo tenemos que incluir un espacio presionando la
+tecla Tab (Tabulador).
+
+##### Ejemplo
+
+   - Lunes
+   1. Mañana
+   2. Tarde
+   3. Noche
+
+   - Martes
+   1. Mañana
+   2. Tarde
+   3. Noche
