@@ -78,6 +78,8 @@ tenemos que escribir 3 guiones bajos seguidos ___
 
 ##### Ejemplo
 
-Este parrafo es de prueba para mostrar la separación de texto por medio de (___) tres guiones
+Este parrafo es de prueba para mostrar la separación de texto por medio de ___ tres guiones
+
 ---
+
 Este es otro párrafo agregado para el ejemplo de "Separaciones físicas entre secciones de texto"
