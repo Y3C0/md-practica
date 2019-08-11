@@ -158,3 +158,10 @@ Este es otro párrafo agregado para el ejemplo de Separaciones físicas entre se
 ### Estilo al texto
 
 Podemos definir que un texto esté en negrita, cursiva o tachado. Para ello tendremos que utilizar el siguiente código:
+
+| Formato | Código | Resultado |
+| --- | --- | --- |
+| Negrita | ```**Negrita**``` | **Negrita** |
+| Cursiva | ```*Cursiva*``` | *Cursiva* |
+| Tachado | ```~~Tachado~~``` | ~~Tachado~~ |
+| Negrita + Cursiva | ```***Negrita + Cursiva***``` | ***Negrita +  Cursiva*** |
