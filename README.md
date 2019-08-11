@@ -61,12 +61,13 @@ tecla Tab (Tabulador).
 
 ##### Ejemplo
 
-   - Lunes
-   1. Mañana
-   2. Tarde
-   3. Noche
+- Lunes
+  1. Mañana
+  2. Tarde
+  3. Noche
 
-   - Martes
-   1. Mañana
-   2. Tarde
-   3. Noche
+- Martes
+  1. Mañana
+  2. Tarde
+  3. Noche
+  
