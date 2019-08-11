@@ -70,4 +70,14 @@ tecla Tab (Tabulador).
   1. Mañana
   2. Tarde
   3. Noche
-  
+
+### Separaciones Físicas entre secciones de texto
+
+Entre dos secciones de texto podemos incluir una separación física. Para ello
+tenemos que escribir 3 guiones bajos seguidos ___
+
+##### Ejemplo
+
+Este parrafo es de prueba para mostrar la separación de texto por medio de (___) tres guiones
+---
+Este es otro párrafo agregado para el ejemplo de "Separaciones físicas entre secciones de texto"
