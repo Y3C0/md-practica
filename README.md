@@ -166,3 +166,44 @@ Podemos definir que un texto esté en negrita, cursiva o tachado. Para ello tend
 | Tachado | ```~~Tachado~~``` | ~~Tachado~~ |
 | Negrita + Cursiva | ```***Palabra``` | ***Palabra*** |
 | Tachado + Negrita + Cursiva | ```~~**palabra**~~``` | ~~**Palabra**~~ |
+
+---
+
+### Insertar enlaces de texto o descarga
+
+Para incluir enlaces en un texto tenemos que utilizar el siguiente tipo de sintaxis:
+
+```MarkDown
+[texto_de_ancla](URL_que_queremos_enlazar_o_enlace_de_descarga)
+```
+###### Ejemplo:
+
+```MarkDown
+[Sigueme!!](https://www.facebook.com/yeco13)
+```
+###### Resultado:
+
+[Sigueme!!](https://www.facebook.com/yeco13)
+
+También se puede añadir un título al enlace con la
+siguiente sintaxis:
+
+```MarkDown
+[texto_de_ancla](URL_que_queremos_enlazar) titulo_del_enlace
+```
+
+###### Resultado:
+
+[Sigueme!!](https://www.facebook.com/yeco13) Sergio
+
+Ademas puedes agregan tooltype
+
+```MarkDown
+[texto_de_ancla](URL_que_queremos_enlazar ”Contenido tooltype”) titulo_del_enlace
+```
+
+###### Resultado:
+
+[Sigueme!!](https://www.facebook.com/yeco13/”Y3C0”) Sergio Diaz
+
+---
