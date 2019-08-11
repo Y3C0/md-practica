@@ -207,3 +207,75 @@ Ademas puedes agregan tooltype
 [Sigueme!!](https://www.facebook.com/yeco13/”Y3C0”) Sergio Diaz
 
 ---
+
+### Insertar Imágenes
+
+El método para insertar imágenes es similar al método para insertar enlaces. La sintaxis es la misma y lo único que tenemos que modificar es:
+
+1. Reemplazar el texto de ancla por el texto alternativo de la imagen.
+2. Añadir el símbolo ! al principio de la sintaxis.
+
+###### Ejemplo:
+
+```MarkDown
+![texto_alternativo_imagen](URL_imagen)
+```
+
+###### Resultado:
+
+![Yo amo MarkDown](http://mikemclin.net/mmwp/wp-content/uploads/2013/03/markdown-syntax-language.png)
+
+>Nota: La url puede ser una dirección local o una dirección que apunte a una imagen alojada en un servidor web.
+
+### Insertar Imágenes con tooltype
+
+```MarkDown
+![texto_alternativo_imagen](URL_imagen "Texto tooltype")
+```
+
+###### Resultado:
+
+![Yo amo MarkDown](http://mikemclin.net/mmwp/wp-content/uploads/2013/03/markdown-syntax-language.png "MarkDown es lo mejor!!")
+
+La imagen siempre se insertará en tamaño real. Si la queremos redimensionar lo deberemos hacer en función del editor de markdown que usemos. Muchos editores de Markdown permitirán redimensionar las imágenes mediante código html.
+
+### Simplificar la creación de enlaces e inserción de imágenes
+
+Escribiremos un texto y cada vez que aparezca una palabra que queramos enlazar la pondremos entre corchetes:
+
+```MarkDown
+[Enlace] Espacio para comentarios sobre el enlace
+```
+
+Una vez finalizado el texto, al final del documento definiremos los enlaces del siguiente modo:
+
+```MarkDown
+[Enlace]: http://www.my-enlace.com
+```
+
+###### Ejemplo:
+
+[Zaid Oigres] Pagina Personal de Sergio Diaz
+
+[Zaid Oigres]: https://www.facebook.com/yeco13/
+
+### Insertar imágenes de forma simple y ordenada
+
+Si tenemos que insertar una imagen en varias partes del documento podemos escribir simplemente el texto alternativo de la imagen del siguiente modo:
+
+```MarkDown
+![insertando imágenes]
+```
+###### Resultado:
+
+![insertando imágenes]
+
+Al final del documento definiremos la URL de la imagen del siguiente modo:
+
+```MarkDown
+[insertando imágenes]: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Octicons-markdown.svg/1024px-Octicons-markdown.svg.png
+```
+
+[insertando imágenes]: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Octicons-markdown.svg/1024px-Octicons-markdown.svg.png
+
+---
