@@ -1,6 +1,6 @@
 # MarkDown
 
-## Encabezados o Titulos
+## Encabezados o Títulos
 
 Mediante el carácter almohadilla # podemos crear encabezados
 de forma extremadamente sencilla.
@@ -26,8 +26,7 @@ un comentario y replicarlo deberíamos usar el siguiente código:
 
 > Linux es el sistema operativo mas chingon!!
 
-Total mente de acurdo!!
-
+Total mente de acuerdo!!
 
 ## Listas
 
@@ -35,8 +34,18 @@ Total mente de acurdo!!
 
 Mediante el símbolo * o – podemos crear listas.
 
+##### Ejemplo:
+
+> * Lunes
+> - Martes
+> * Miércoles
+> - Jueves
+> * Viernes
+
+##### Resultado:
+
 * Lunes
 - Martes
-* Miercoles
-- Jueves 
+* Miércoles
+- Jueves
 * Viernes
