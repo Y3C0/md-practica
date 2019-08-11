@@ -318,4 +318,26 @@ Comando para listar las actualizaciones disponibles: `apt list --upgradable`
 Comando para actualizar las aplicaciones: `apt upgrade`
 
  ---
- 
+
+## Listas de Tareas o CheckList
+
+Markdown nos permite crear listas de tareas de forma extremadamente sencilla.
+Para ello tan solo tenemos que abrir corchete, dejar un espacio y cerrar el
+corchete:
+
+> [ ]
+
+En el caso que queramos marcar la tarea como realizada tenemos que
+reemplazar el espacio por una X del siguiente modo:
+
+> [X]
+
+###### *Ejemplo:*
+
+**Lista de super**
+
+- [ ] 1 lt Leche
+- [ ] 5 pz Pagina
+- [X] 2 kg Tortillas
+- [X] 3 kg Naranja
+- [ ] 1 Lechuga
