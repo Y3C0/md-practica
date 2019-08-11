@@ -27,3 +27,16 @@ un comentario y replicarlo deberíamos usar el siguiente código:
 > Linux es el sistema operativo mas chingon!!
 
 Total mente de acurdo!!
+
+
+## Listas
+
+### Listas desordenadas
+
+Mediante el símbolo * o – podemos crear listas.
+
+* Lunes
+- Martes
+* Miercoles
+- Jueves 
+* Viernes
