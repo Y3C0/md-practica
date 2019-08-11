@@ -17,3 +17,13 @@ espacio y el nombre que queremos para el encabezado:
 #### Titulo 4
 ##### Titulo 5
 ###### Titulo 6
+
+## Citar
+
+Para incluir una cita tenemos que usar el símbolo > seguido de un espacio antes
+del texto que queremos citar. Por lo tanto, si quiero citar
+un comentario y replicarlo deberíamos usar el siguiente código:
+
+> Linux es el sistema operativo mas chingon!!
+
+Total mente de acurdo!!
