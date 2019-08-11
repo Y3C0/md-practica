@@ -11,6 +11,8 @@ cinco y seis de forma extremadamente sencilla.
 Para crear un encabezado de nivel 1 escribimos una almohadilla # seguido de un
 espacio y el nombre que queremos para el encabezado:
 
+##### Ejemplo:
+
 # Titulo 1
 ## Titulo 2
 ### Titulo 3
@@ -23,6 +25,8 @@ espacio y el nombre que queremos para el encabezado:
 Para incluir una cita tenemos que usar el símbolo > seguido de un espacio antes
 del texto que queremos citar. Por lo tanto, si quiero citar
 un comentario y replicarlo deberíamos usar el siguiente código:
+
+##### Ejemplo:
 
 > Linux es el sistema operativo mas chingon!!
 
@@ -59,7 +63,7 @@ número seguido de un punto y un espacio antes de comenzar a escribir
 Para anidar una lista tan solo tenemos que incluir un espacio presionando la
 tecla Tab (Tabulador).
 
-##### Ejemplo
+##### Ejemplo:
 
 - Lunes
   1. Mañana
@@ -76,7 +80,7 @@ tecla Tab (Tabulador).
 Entre dos secciones de texto podemos incluir una separación física. Para ello
 tenemos que escribir 3 guiones bajos seguidos ___
 
-##### Ejemplo
+##### Ejemplo:
 
 Este parrafo es de prueba para mostrar la separación de texto por medio de ___ tres guiones
 
