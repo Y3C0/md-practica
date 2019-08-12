@@ -495,3 +495,69 @@ Para anular el código Markdown tendremos que usar el carácter \.
 \*Palabra de ejemplo*
 
 ---
+
+## Insertar Videos
+
+#### Para usuarios de Markdown Editor en Nextcloud
+
+Si en Nextcloud usan Markdown Editor tan solo tienen que realizar lo siguiente:
+
+1. Escriben el símbolo de admiración !.
+2. Acto seguido abren corchetes [ y escriben el nombre del servicio en que está alojado el vídeo.
+3. Cierren corchetes ]. Finalmente, entre paréntesis peguen la URL del vídeo que quieren insertar.
+
+###### *ejemplo:*
+
+```
+![youtube](https://www.youtube.com/watch?v=Mh0Of4LzEfk)
+![vimeo](https://vimeo.com/76979871)
+```
+
+###### *Resiltado:*
+
+![youtube](https://www.youtube.com/watch?v=Mh0Of4LzEfk)
+![vimeo](https://vimeo.com/76979871)
+
+Para visualizar los videos tan solo tendremos que clicar sobre el icono Play.
+
+#### Insertar vídeos en el caso que su editor de Markdown acepte código html
+
+En los editores de Markdown que acepten html tan solo tendremos que usar el link de inserción que proporcionan servicios como Youtube, Vimeo o DailyMotion para insertar los vídeos en las web.
+
+Para obtener el link de Youtube que nos permitirá insertar un vídeo determinado lo haremos del siguiente modo.
+
+1. Empezamos a reproducir el vídeo que queremos insertar.
+2. Encima del vídeo presionamos el botón izquierdo del ratón y cuando aparezca el menú contextual clicamos encima de la opción Copiar código de inserción.
+3. Nos vamos a nuestro editor de Markdown y pegamos el contenido del portapapeles. De este modo tan sencillo podremos insertar vídeos los servicios de vídeo online más populares
+
+###### *Ejemplo:*
+
+```
+<iframe width="744" height="419" src="https://www.youtube.com/embed/HUBNt18RFbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+###### *Resultado:*
+
+<iframe width="744" height="419" src="https://www.youtube.com/embed/HUBNt18RFbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Si desean insertar sonidos de servicios de audio como soundcloud, el procedimiento es el mismo que se muestra en este apartado. Tan solo tienen que buscar el link para insertar el sonido y pegarlo en su editor de Markdown
+
+
+#### Insertar vídeos en el caso usemos un editor de markdown sin ningún tipo de soporte
+
+En el caso que su editor de markdown no tenga ningún tipo de soporte usaremos la siguiente sintaxis para insertar vídeos:
+
+```
+[![texto_alternativo_imagen](url_imagen_que_representará_el_video)](url_del_vídeo_que_queremos_insertar)
+```
+
+###### *Ejemplo:*
+
+```
+[![MARKDOW](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Octicons-markdown.svg/1024px-Octicons-markdown.svg.png)](https://www.youtube.com/watch?time_continue=3&v=y6XdzBNC0_0)
+```
+###### * Resultado:*
+
+[![MARKDOW](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Octicons-markdown.svg/1024px-Octicons-markdown.svg.png)](https://www.youtube.com/watch?time_continue=3&v=y6XdzBNC0_0)
+
+---
