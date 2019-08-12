@@ -408,10 +408,69 @@ página.
 
 ###### *Ejemplo:*
 
+```
 El inventor que cambio el mundo como lo conocemos fue Tesla[^1]. El y sus investos hicieron que el mundo prosperara.
 
 ---
 
 [^1]: Nicola Tesla el inventor que revoluciono el mundo
+```
+
+###### *Resultado:*
+
+El inventor que cambio el mundo como lo conocemos fue Tesla[^1]. El y sus inventos hicieron que el mundo prosperara.
+
+---
+
+[^1]: Nicola Tesla el inventor que revoluciono el mundo
+
+---
+
+## Abreviaciones de palabras
+
+En muchas ocasiones escribimos abreviaciones o palabras que necesitan una
+breve definición.
+Si queremos definir la abreviación TAS, en cualquier parte del documento
+hacemos lo siguiente:
+1. Escribimos un *
+2. Abrimos corchetes [
+3. Escribimos la abreviación de palabra a definir.
+4. Cerramos corchetes ] y acto seguido escribimos :
+5. Finalmente dejamos un espacio y escribimos la definición de la abreviación.
+
+###### *Ejemplo:*
+
+```
+El IMSS trabaja para todos los Mexicanos
+
+*[IMSS]: Instituto Mexicano del Seguro Social
+
+A partir de estos momentos siempre que escribamos IMSS tendremos
+```
+
+###### *Resultado:*
+
+El IMSS trabaja para todos los Mexicanos
+
+*[IMSS]: Instituto Mexicano del Seguro Social
+
+----
+
+## Definir palabras
+
+1. Escribimos la palabra a definir y presionamos la tecla Enter.
+2. Acto seguido escribimos :, dejamos un espacio y empezamos a escribir la definición de la palabra.
+
+###### *Ejemplo:*
+
+```
+MarkDown
+: Es un lenguaje de marcado
+```
+
+###### *Resultado:*
+
+MarkDown
+: Es un lenguaje de marcado
 
 ---
