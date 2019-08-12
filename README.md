@@ -474,3 +474,24 @@ MarkDown
 : Es un lenguaje de marcado
 
 ---
+
+## Anular Codigo
+
+Para anular el código Markdown tendremos que usar el carácter \.
+
+###### *Ejemplo:*
+
+
+```
+*Palabra de ejemplo*
+
+\*Palabra de ejemplo*
+```
+
+###### *Resultado:*
+
+*Palabra de ejemplo*
+
+\*Palabra de ejemplo*
+
+---
