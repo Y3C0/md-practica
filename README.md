@@ -391,3 +391,27 @@ justificar a la derecha el contenido de la columna 2 y centrar todo el texto de 
 | 31 | Diciembre | 1980 |
 
 ---
+
+## Insertar comentarios o notas al pie de la pagina
+
+Para insertar una nota al pie de página lo haremos del siguiente modo.:
+1. Justo después de la palabra que queremos añadir una nota al pie de página
+escribiremos un corchete [
+2. Acto seguido escribimos un acento circunflejo ^
+3. A continuación escribimos una palabra sin espacios que describa el tipo de
+comentario que pondremos al pie de página
+4. El siguiente paso consistirá en cerrar el corchete ].
+5. Seguidamente, en cualquier parte del documento reproducimos los mismos
+caracteres realizados en las pasos 1,2.3 y 4. A continuación escribimos el
+carácter : y finalmente escribimos la nota que queremos poner al pie de
+página.
+
+###### *Ejemplo:*
+
+El inventor que cambio el mundo como lo conocemos fue Tesla[^1]. El y sus investos hicieron que el mundo prosperara.
+
+---
+
+[^1]: Nicola Tesla el inventor que revoluciono el mundo
+
+---
